@@ -1,0 +1,110 @@
+.animate-fade-hidden {
+    opacity: 0;
+    filter: blur(2px);
+    transition: all 1s;
+    transition-delay: 100ms;
+}
+.animate-fade {
+    opacity: 1;
+    filter: blur(0);
+    transform: translateX(0);
+}
+
+.hover-effect-letter {
+    transition: 0.1s;
+}
+
+.hover-effect-letter:hover {
+    color: #9139c4;
+    text-decoration: underline;
+}
+
+.text-glow {
+    font-size: 80px;
+    color: #fff;
+    text-align: center;
+    -webkit-animation: glow 1s ease-in-out infinite alternate;
+    -moz-animation: glow 1s ease-in-out infinite alternate;
+    animation: glow 1s ease-in-out infinite alternate;
+}
+@keyframes glow {
+    from {
+        text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073,
+            0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073,
+            0 0 70px #e60073;
+    }
+    to {
+        text-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6,
+            0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6,
+            0 0 80px #ff4da6;
+    }
+}
+
+.animate-up-hidden {
+    transition: all 1s;
+    -webkit-transition: all 1s;
+    transition-delay: 100ms;
+    filter: blur(1px);
+    transform: translateY(20px);
+    -webkit-transform: translateY(20px);
+    opacity: 0;
+}
+
+.animate-up {
+    filter: blur(0);
+    opacity: 1;
+    transform: translateY(0px);
+    -webkit-transform: translateY(0px);
+}
+
+.animate-down-hidden {
+    transition: all 1s;
+    -webkit-transition: all 1s;
+    transition-delay: 100ms;
+    filter: blur(1px);
+    transform: translateY(-20px);
+    -webkit-transform: translateY(-20px);
+    opacity: 0;
+}
+
+.animate-down {
+    filter: blur(0);
+    opacity: 1;
+    transform: translateY(0px);
+    -webkit-transform: translateY(0px);
+}
+
+.animate-left-hidden {
+    transition: all 1s;
+    -webkit-transition: all 1s;
+    transition-delay: 100ms;
+    filter: blur(1px);
+    transform: translateX(-20px);
+    -webkit-transform: translateX(-20px);
+    opacity: 0;
+}
+
+.animate-left {
+    filter: blur(0);
+    opacity: 1;
+    transform: translateX(0px);
+    -webkit-transform: translateX(0px);
+}
+
+.animate-right-hidden {
+    transition: all 1s;
+    -webkit-transition: all 1s;
+    transition-delay: 100ms;
+    filter: blur(1px);
+    transform: translateX(20px);
+    -webkit-transform: translateX(20px);
+
+    opacity: 0;
+}
+
+.animate-right {
+    filter: blur(0);
+    opacity: 1;
+    transform: translateX(0px);
+    -webkit-transform: translateX(0px);
+}
