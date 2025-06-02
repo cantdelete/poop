@@ -1,0 +1,39 @@
+:root {
+    --coi-purple: #9139c4;
+}
+
+body {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-color: #1a1a1a;
+}
+
+html {
+    scroll-behavior: smooth;
+    position: relative;
+    min-height: 100%;
+}
+
+.coi_purple {
+    color: var(--coi-purple);
+}
+
+.whitetext {
+    color: white;
+}
+.admindivider {
+    background-color: white;
+    width: 75%;
+}
+
+.btn-purple {
+    background-color: var(--coi-purple);
+    border-color: var(--coi-purple);
+    color: white;
+}
+.btn-purple:hover {
+    background-color: #772ea1;
+    border-color: #772ea1;
+    color: white;
+}

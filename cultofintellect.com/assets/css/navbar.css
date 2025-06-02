@@ -1,0 +1,22 @@
+.navbar {
+    min-height: 80px;
+    z-index: 1;
+}
+
+.navbar-brand {
+    padding: 0em 0em 0em 2em;
+}
+.nav-item {
+    color: white;
+    display: flex;
+    padding: 0em 0.5em 0em 0.5em;
+}
+.nav-link {
+    transition: color 0.1s;
+}
+.nav-item:hover .nav-link:hover {
+    color: #9139c4;
+}
+.navbar-dark .navbar-nav .nav-link {
+    color: rgb(255, 255, 255);
+}
